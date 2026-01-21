@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:ital,wght@0,100..900;1,100..900&family=Grand+Hotel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section>
+            <div class="parent-flex">
+                <div class="logo">
+                    école numérique
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="admissions.html">Admission</a></li>
+                    </ul>
+                </nav>
+
+                <!-- <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="menu">
+                        <a href="#" class="btn-close"><i class="fa-solid fa-delete-left"></i></a>
+                        <a href="formation.html">Formation</a> <br>
+                        <a href="admissions.html">Addmission</a>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+    </header>
+    <!-- .....................................main............................... -->
+     <main>
+        <section>
+            <img src="image/sary-bg.gif" alt="" class="sary">
+            <div class="absolute">
+              <h2>Découvert Nos <br> études Formations</h2>
+
+              <form action="" class="barre-search">
+                <input type="search" placeholder="recherche">
+                <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+            </div>
+        </section>
+<!-- ................................................section catégories................... -->
+        <section class="p-1">
+           <div class="title-center">
+              <h3>Catégories</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Totam, dignissimos error quos ducimus dicta nam voluptatum aut harum, 
+                aperiam amet explicabo vero odio inventore hic?
+              </p>
+           </div>
+
+           <div class="card-container">
+                <div class="element-flex">
+                    <div class="sous-titre">
+                        <h4>Domaine</h4>
+                         <label for=""><input type="checkbox" name="checkbox">informatique</label> 
+                          <label for=""><input type="checkbox" name="checkbox">Multimédia</label> 
+                          <label for=""><input type="checkbox" name="checkbox">Gestion</label> 
+                    </div>
+
+                    <div class="sous-titre">
+                        <h4>Niveau</h4>
+                        <label for=""><input type="checkbox" name="checkbox">Licence</label> 
+                        <label for=""><input type="checkbox" name="checkbox">Master</label> 
+                        <label for=""><input type="checkbox" name="checkbox">certificat/formation</label> 
+                    </div>
+
+                    <div class="sous-titre">
+                        <h4>Durée</h4>
+                        <select name="" id="" class="nex-select">
+                            <option value="choisir">choisir</option>
+                            <option value="1 jusqu'à 3ans">1 jusqu'à 3ans</option>
+                            <option value="1 jusqu'à 5ans">1 jusqu'à 5ans</option>
+                            <option value="1 jusqu'à 2ans">1 jusqu'à 2ans</option>
+                        </select>
+                    </div>
+
+                    <div class="sous-titre">
+                        <h4>Mode</h4>
+                        <label for=""><input type="checkbox" name="checkbox">Présentiel</label> 
+                        <label for=""><input type="checkbox" name="checkbox">En ligne</label> 
+                        <label for=""><input type="checkbox" name="checkbox">Hybride</label> 
+                    </div>
+                </div>
+           </div>
+        </section>
+<!-- ................................................section nos parcours................... -->
+        <section>
+            <div class="title-center">
+               <h3>Nos parcours</h3>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa earum exercitationem reprehenderit commodi? Velit assumenda totam ratione
+                 hic harum amet, quasi libero.Magnam, dolore ullam!
+               </p>
+            </div>
+        
+
+            <div class="p-2">
+                <div class="card-list">
+                    <div class="card">
+                    <img src="image/filiere-tech.gif" alt="">
+                    <h4>Informatique</h4>
+                    <p>Licence - 3 ans</p>
+                    <a href="#info-detail" class="btn">Plus details</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="image/filier-multi.gif" alt="">
+                        <h4>Multimédia</h4>
+                        <p>Master - 5 ans</p>
+                        <a href="#multi-detail" class="btn">Plus details</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="image/filier-gestion.gif" alt="">
+                        <h4>Gestion</h4>
+                        <p>Master - 5 ans</p>
+                        <a href="#gestion-detail" class="btn">Plus details</a>
+                    </div>
+                </div>
+
+
+                <div id="info-detail" class="modal">
+                      <div class="detail-content">
+                         <a href="#" class="btn-close"><i class="fa-solid fa-delete-left"></i></a>
+                         <h4>Detail:informatique</h4>
+                         <p><label for="">Objectif:</label> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dicta!.</p>
+                         <p><label for="">Modules:</label>Python, html/css, Reseaux</p>
+                         <p><label for="">travail:</label>Developpeur, cyber sécurite, génie logiciel</p>
+                      </div>
+                </div>
+
+                <div id="multi-detail" class="modal">
+                    <div class="detail-content">
+                       <a href="#" class="btn-close"><i class="fa-solid fa-delete-left"></i></a>
+                       <h4>Detail:Multimédia</h4>
+                       <p><label for="">Objectif:</label> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, aspernatur!.</p>
+                       <p><label for="">Modules:</label>Montage vidéos, graphic design,</p>
+                       <p><label for="">travail:</label>Cadreur, designer, developpeur</p>
+                    </div>
+              </div>
+
+              <div id="gestion-detail" class="modal">
+                <div class="detail-content">
+                   <a href="#" class="btn-close"><i class="fa-solid fa-delete-left"></i></a>
+                   <h4>Detail:Gestion</h4>
+                   <p><label for="">Objectif:</label> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, dicta..</p>
+                   <p><label for="">Modules:</label>Finances, comptabilites, gestion projet</p>
+                   <p><label for="">travail:</label>finances, comptabilites</p>
+                </div>
+          </div>
+            </div>  
+            
+        </section>
+     </main>
+
+     
+</body>
+</html>

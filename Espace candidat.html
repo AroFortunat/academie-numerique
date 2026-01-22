@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace candidat</title>
+</head>
+<body>
+    <h1>CANDIDATEZ À L'UNE DE NOS FORMATIONS</h1>
+    <P>Inscrivez-vous facilement en commençant par remplir le formulaire ci-dessous.</P>
+    <form action="">
+        <input type="email" required placeholder="Email">
+        <input type="tel" required placeholder="Tél"><br><br>
+        <input type="prénom" required placeholder="Prénom">
+        <input type="nom" required placeholder="Nom"><br><br>
+        <input type="text" required placeholder="Niveau" id="Niveau" name="Niveau" list="Niveaux">
+        <datalist id="Niveaux">
+            <option value="Baccalauréat">
+            <option value="Bacc+1">
+            <option value="Bacc+2">
+            <option value="Bacc+3">
+        </datalist><br><br>
+        <input type="Formation" required placeholder="Formation souhaitée" id="Formation" name="Formation" list="Formations">
+        <datalist id="Formations">
+            <option value="Initial">
+            <option value="Continue">
+        </datalist>
+        <input type="Parcours" required placeholder="Parcours" id="Parcours" name="Parcours" list="Options">
+        <datalist id="Options">
+            <option value="Informatique">
+            <option value="Anglais">
+            <option value="Français">
+        </datalist><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
+    <h2>DÉJÀ CANDIDAT ?</h2>
+    <P>Suivez l'évolution de votre candidature :</P>
+    <input type="email" required placeholder="Email">
+    <button type="submit">Accéder</button>
+</body>
+</html>

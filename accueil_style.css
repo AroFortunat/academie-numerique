@@ -8,6 +8,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+header { border-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color: slategray;
+
+
+}
 
 /* GLOBAL */
 body {
@@ -139,6 +146,8 @@ p {
 /* LISTES */
 ul {
   list-style: none;
+  print-color-adjust: calc(display);
+
 }
 
 ul li {
